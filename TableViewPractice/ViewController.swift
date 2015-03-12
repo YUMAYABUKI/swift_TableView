@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    
     @IBOutlet var timelineTableView: UITableView!
     var charaNameArray = [String]()//空の配列を宣言（string型）
     var charaImageArray = [UIImage]()//空の配列を宣言（UIImage型）
